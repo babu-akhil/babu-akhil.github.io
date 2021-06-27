@@ -20,7 +20,7 @@ function WorkComponent() {
                     <li> Web Development with HTML / CSS / Javascript.</li>
                     <li> Familiar with ReactJS.</li>
                     <li> Familiar with Remote Sensing Libraries like Rasterio, GDAL, Sentinelhub.</li>
-                    <li> Familiar with Git, Node.</li>
+                    <li> Familiar with Git, Node, AWS S3, EC2, Google BigQuery, Gh-pages, heroku.</li>
                     <li> Have used in the past: C++, MATLAB, Scala</li>
                 </ul>
                 <br></br>
