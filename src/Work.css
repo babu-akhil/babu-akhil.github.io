@@ -1,0 +1,67 @@
+.Work {
+    padding-bottom: 500px;
+}
+
+.WorkEntries {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 200px 0px 200px;
+    padding: 40px 5px 0px 5px;
+    font-size: 25px;
+}
+
+.WorkEntries h1 {
+    color: #cc0000;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.WorkEntries .company, .timeline {
+    font-size: 23px;
+    font-weight: 400;
+    font-style: italic;
+    padding: 5px;
+}
+
+.WorkEntries.Introduction {
+    margin: 200px 200px 0px 200px;
+}
+
+.WorkEntries h2{
+    font-weight: 400;
+    font-size: 35px;
+}
+.WorkEntries ul {
+    list-style: circle;
+}
+
+.WorkEntries h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: 400;
+    position: fixed;
+    top: 0px;
+    left: 200px;
+}
+
+.Experiences {
+    font-size: 50px;
+}
+
+a {
+    color: white;
+}
+
+.WorkEntries li {
+    padding: 2px;
+}
+
+.WorkEntries .description {
+    margin-top: 40px;
+}
+
