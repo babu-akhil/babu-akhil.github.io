@@ -1,0 +1,11 @@
+.Blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo {
+    font-size: 40px;
+    margin-top: 400px;
+}

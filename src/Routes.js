@@ -1,9 +1,8 @@
 import React from "react";
 import {Switch, Route, Redirect , BrowserRouter} from "react-router-dom";
 import IntroComponent from "./App.js";
-import WorkComponent from './Work.js'
-// import BlogComponent from './Blog'
-// import ContactComponent from './Contact'
+import WorkComponent from './Work.js';
+import BlogComponent from './Blog.js';
 
 const Routes = () => {
   return (
@@ -11,8 +10,7 @@ const Routes = () => {
       <Switch>
         <Route exact path="/" component={IntroComponent} />
         <Route exact path="/work" component={WorkComponent} />
-        {/* <Route exact path="/blog" component={BlogComponent} />
-        <Route exact path="/contact" component={ContactComponent} /> */}
+        <Route exact path="/blog" component={BlogComponent} />
       </Switch>
     </BrowserRouter>
   );

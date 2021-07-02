@@ -19,7 +19,7 @@ function WorkComponent() {
                     <li> Python for Data Science. Proficient in Sklearn, Pandas, Tensorflow, Keras, OpenCV.</li>
                     <li> Web Development with HTML / CSS / Javascript.</li>
                     <li> Familiar with ReactJS.</li>
-                    <li> Familiar with Remote Sensing Libraries like Rasterio, GDAL, Sentinelhub.</li>
+                    <li> Familiar with Remote Sensing Libraries like Rasterio, GDAL, Sentinelhub, Earth Engine</li>
                     <li> Familiar with Git, Node, AWS S3, EC2, Google BigQuery, Gh-pages, heroku.</li>
                     <li> Have used in the past: C++, MATLAB, Scala</li>
                 </ul>
@@ -57,6 +57,16 @@ function WorkComponent() {
                             annotation. Training and testing was done initially on Google Colab, 
                             and later moved to AWS EC2.
                         </li>
+                        <li><h3>Video Analytics</h3>
+                            I did work on a use-case for traffic junctions camera analytics.
+                            The model detects all cars and pedestrians in the frame, checks if any car
+                            is violating red lights or endangering pedestrians. It also counts number of pedestrians
+                            in the zebra crossing at a given time. The model was built based on a retina-net
+                            object detector which we trained on around 100 annotated images. It is not a realtime detector,
+                            inference took around 1s per frame on test video, although it is possible that a lighter model
+                            would work with comparable accuracy and faster inference.                                  
+                            
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -89,8 +99,9 @@ function WorkComponent() {
                                 </a>
                             </li>
                             <li>
-                                Currently working on a ecommerce site prototype, and some 
-                                applications to make music from the browser.
+                                <a href = 'https://babu-akhil.github.io/todolist/'>
+                                    A to-do list application
+                                </a>
                             </li>
                         </ul>        
                         <br></br>

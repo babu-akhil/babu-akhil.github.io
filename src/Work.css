@@ -1,3 +1,9 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
 .Work {
     padding-bottom: 500px;
 }
@@ -47,6 +53,7 @@
     position: fixed;
     top: 0px;
     left: 200px;
+    padding-bottom: 30px;
 }
 
 .Experiences {
@@ -65,3 +72,111 @@ a {
     margin-top: 40px;
 }
 
+.links {
+    padding-bottom: 0px;
+    background-color: black;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1200px)
+{
+    .title {
+        left: 100px;
+    }
+
+    .WorkEntries {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .WorkEntries.Introduction{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 750px)
+{
+    .title {
+        font-size: 70px;
+        left: 30px;
+    }
+    .WorkEntries {
+        margin-left: 30px;
+        margin-right: 50px;
+    }
+
+    .WorkEntries.Introduction{
+        margin-top: 100px;
+        margin-left: 30px;
+        margin-right: 50px;
+    }
+
+    .Experiences {
+        font-size: 45px;
+    }
+
+    .WorkEntries h1 {
+        color: #cc0000;
+        font-size: 35px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .WorkEntries {
+        padding-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .WorkEntries.Introduction {
+        margin-top: 80px;
+        margin-right: 20px;
+    }
+    .title {
+        left: 0px;
+        top: 70px;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+    }
+    .WorkEntries{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+    .Experiences {
+        font-size: 30px;
+        margin-right: 20px;
+    }
+
+    .WorkEntries h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .WorkEntries h2 {
+        font-size: 25px;
+    }
+
+    .WorkEntries h3 {
+        font-size: 20px;
+    }
+
+    .WorkEntries .company, .timeline {
+        font-size: 18px;
+        padding: 0px;
+    }
+
+    br {
+        margin-top: 0px;
+        content: "";
+    }
+
+    ul {
+        padding-left: 10px;
+    }
+}

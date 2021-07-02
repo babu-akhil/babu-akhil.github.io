@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-weight: 400;
   font-family: 'Rubik';
@@ -73,3 +78,110 @@ body {
   padding: 10px;
 }
 
+@media only screen and (max-width: 1200px)
+{
+  .intro {
+    font-size: 40px;
+    margin-left: 5px;
+  }
+  .Navbar ul{
+    font-size: 40px;
+  }
+  .Navbar {
+    margin-right: 5px;
+  }
+  .links a{
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 800px)
+{
+  .intro {
+    font-size: 40px;
+    margin-left: 5px;
+  }
+  .Navbar ul{
+    font-size: 40px;
+  }
+  .Navbar {
+    margin-right: 5px;
+  }
+  .links a{
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 650px)
+{
+  .intro {
+    font-size: 30px;
+    margin-left: 0px;
+  }
+  .Navbar ul{
+    font-size: 30px;
+  }
+  .Navbar {
+    margin-right: 0px;
+  }
+
+  .links a{
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px)
+{
+  .intro {
+    font-size: 30px;
+    margin-left: 0px;
+  }
+  .Navbar ul{
+    font-size: 30px;
+    flex-direction: row;
+    position: absolute;
+    padding-left: 0px;
+    width: 100%;
+    top: 100px;
+    left: 0px;
+    justify-content: center;
+  }
+  .Navbar li {
+    text-align: center;
+  }
+  .Navbar a{
+    text-align: center;
+    padding: 20px;
+  }
+  .Navbar {
+    margin-right: 0px;
+  }
+
+  .links {
+    justify-self: center;
+  }
+
+  .links a{
+    text-align: center;
+    padding: 10px;
+  }
+
+  .links ul{
+    justify-content: center;
+    margin-right: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    justify-self: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .intro {
+    font-size: 25px;
+    margin-top: 60px;
+  }
+
+  .Navbar ul{
+    top: 100px;
+  }
+}

@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 
 function Navbar() {
 
-    let pages = ['work', 'blog', 'contact']
+    let pages = ['work', 'blog']
 
 
     return(
