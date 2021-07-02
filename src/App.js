@@ -13,7 +13,7 @@ let interests = [ "<span style = 'color: #99d3ff'>programming</span>",
     <div className = 'intro'>
       <div className = 'text'>
       Hi, I'm Akhil. <br></br>
-      I like to build things.<br></br>
+      I like to build things. <br></br>
       I am interested in <br></br><Typewriter options = {{strings: interests, autoStart: true, loop: true, wrapperClassName: 'typewriter', pauseFor: 1000}} /> <br></br>
       </div>
     </div>
