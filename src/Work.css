@@ -54,6 +54,7 @@ html, body {
     top: 0px;
     left: 200px;
     padding-bottom: 30px;
+    z-index: 2;
 }
 
 .Experiences {
